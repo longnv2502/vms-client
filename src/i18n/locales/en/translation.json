@@ -1,0 +1,717 @@
+{
+  "common": {
+    "field": {
+      "customers": "Guests",
+      "username": "Username",
+      "gender": "Gender",
+      "reason": "Reason",
+      "reasonNote": "Reason Note",
+      "roles": "Roles",
+      "role": "Role",
+      "dob": "Birthday",
+      "duration": "Duration",
+      "title": "Title",
+      "guest": "Guest",
+      "user": "User",
+      "fullName": "Full name",
+      "contact": "Contact",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "password": "Password",
+      "verify_password": "Verify password",
+      "phoneNumber": "Phone No.",
+      "email": "E-mail",
+      "used": "Used",
+      "status": "Status",
+      "registration_date": "Registration date",
+      "created_by": "Create by",
+      "created_on": "Create On",
+      "modification_date": "Modification date",
+      "action": "Action",
+      "city": "City",
+      "address": "Address",
+      "current_password": "Current Password",
+      "new_password": "New Password",
+      "confirm_password": "Confirm Password",
+      "organization": "Organization",
+      "representative_email": "Representative email",
+      "code": "Code",
+      "suffixCode": "Suffix Code",
+      "type": "Type",
+      "contact_person_in_charge": "Contact information",
+      "contact_phone_number": "Contact phone number",
+      "homepage_address": "Homepage",
+      "representativeName": "Representative Name",
+      "company_registration_number": "Business registration No.",
+      "business_registration": "Business registration card",
+      "brand_introduction": "Brand introduction",
+      "department": "Department",
+      "startTime": "End time",
+      "draft": "Draft",
+      "endTime": "Start Time",
+      "province": "Province",
+      "district": "District",
+      "commune": "Commune",
+      "ward": "Ward",
+      "taxCode": "Tax Code",
+      "description": "Description",
+      "room": "Room",
+      "room_name": "Room Name",
+      "checkInCode": "QR Code",
+      "participate": "Participate",
+      "device": "Device",
+      "contact_number": "Contact number",
+      "subject": "Subject",
+      "body": "Body",
+      "purposeNote": "Purpose Note",
+      "purpose": "Purpose",
+      "checkIn_status": "Check In Status",
+      "identificationNumber": "Identification Number",
+      "name": "Name",
+      "tax_code": "Tax_code",
+      "customer": "Guest",
+      "ticket": "Ticket",
+      "site": {
+        "name": "Site"
+      },
+      "check_in": "Check In",
+      "check_out": "Check Out",
+      "ticket_name": "Ticket Name",
+      "ticket_info": "Ticket Info",
+      "title_meeting": "Title Appointment",
+      "visitor_name": "Visitor Name",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "representative": "Representative",
+      "website": "Website",
+      "organization_name": "Organization name",
+      "site_name": "Site name",
+      "table_name": "Table name",
+      "audit_type": "Audit type",
+      "date_time": "Date Time",
+      "view_detail": "View Detail",
+      "audit_log_Info": "Audit Log Info",
+      "old_value": "Old Value",
+      "new_value": "New Value",
+      "ip_device": "Ip device",
+      "create_card": "Create card",
+      "cardId": "Card Id",
+      "macIp": "MacIp",
+      "deviceType": "Device Type",
+      "createdBy": "Created By",
+      "my_site_info": "Set my site information",
+      "customer_detail": "Guest Detail",
+      "visitorName": "Visitor Name",
+      "action_delete": "Delete",
+      "department_name": "Department Name",
+      "old_guest": "Old Guest",
+      "new_guest": "New Guest"
+    },
+    "button": {
+      "setting_default": "Set default",
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "placeholder": {
+      "id": "Please enter the id.",
+      "first_name": "Please enter the first name",
+      "last_name": "Please enter the last name",
+      "username": "Please enter the username",
+      "password": "Please enter a password",
+      "email": "Please enter a email address",
+      "roles": "Please select roles",
+      "role": "Please select role",
+      "verify_password": "Please enter verify password",
+      "dob": "Please select a birthday",
+      "gender": "Please select a gender",
+      "reason": "Please select a reason",
+      "reasonNote": "Please enter a reason note",
+      "city": "Please select a city",
+      "address": "Please enter a address",
+      "name": "Please enter a name",
+      "macIp": "Please enter a macIp",
+      "phoneNumber": "Please enter a phone number.",
+      "current_password": "Please enter a current password",
+      "new_password": "Please enter a new password",
+      "confirm_password": "Please enter a confirm password",
+      "organization": "Please enter within 20 characters",
+      "organization_name": "Please enter the organization name",
+      "title_meeting": "Please enter the title meeting",
+      "representative_email": "Please enter your representative email",
+      "code": "Enter code here",
+      "suffixCode": "Enter suffix code here",
+      "checkInCode": "Please enter your QR code",
+      "contact_person_in_charge": "Please enter without “-”",
+      "contactInfo": "Please enter the email contact info",
+      "contact_phone_number": "Enter your contact phone number here",
+      "homepage_address": "Please enter the homepage URL.",
+      "representativeName": "Please enter the representative name",
+      "company_registration_number": "Example) 123-45-6789",
+      "brand_introduction": "Please enter brand introduction information",
+      "identificationNumber": "Please enter id card",
+      "upload": "Select image",
+      "purposeNote": "Enter purpose note",
+      "createdBy": "Enter a user create by",
+      "purpose": "Select a purpose",
+      "device": "Select a device",
+      "room": "Select a room",
+      "department": "Please select a department",
+      "deviceType": "Please select a device type",
+      "site": "Please select a site",
+      "province": "Please select a province",
+      "district": "Please select a district",
+      "commune": "Please select a commune",
+      "ward": "Please enter a ward",
+      "taxCode": "Please enter a tax code",
+      "description": "Description",
+      "site_name": "Please enter site name",
+      "department_name": "Please enter department name",
+      "template_name": "Please enter template name",
+      "subject": "Please enter subject",
+      "customer": "Please enter Guest Id",
+      "ticket": "Please enter Ticket Id",
+      "type": "Choose type",
+      "body": "Enter body",
+      "role_name": "Please enter role name",
+      "customer_name": "Enter customer name",
+      "customer_filer": "Enter customer info",
+      "website": "Enter website",
+      "representative": "Enter representative",
+      "keyword": "Enter keyword for search",
+      "ip_device": "Enter mac Ip of device",
+      "cardId": "Enter card id",
+      "audit_type": "Choose audit type",
+      "status": "Choose status",
+      "meeting": "Enter meeting info",
+      "check_out": "Check Out",
+      "create_card": "Create Card",
+      "device_type": "Please chosse device type"
+    },
+    "error": {
+      "content_is_too_long": "Content is too long!",
+      "email_valid": "Email is not valid",
+      "code_valid": "Code must has max 10 character and no contain special character",
+      "name_valid": "Name must has max 50 character",
+      "description_valid": "Description must has max 50 character",
+      "phoneNumber_valid": "Phone number is not valid",
+      "identificationNumber_valid": "Identification number is not valid"
+    },
+    "tooltip": {
+      "business_registration": "*Register JPG, PNG, PDF up to 2MB"
+    },
+    "label": {
+      "save": "Save",
+      "add": "Add",
+      "table": "Table",
+      "kanban": "Kanban",
+      "create": "Create",
+      "export_data": "Export Data",
+      "import_data": "Import Data",
+      "close": "Close",
+      "use": "Use",
+      "yes": "Yes",
+      "no": "No",
+      "in": "In",
+      "year": "Year",
+      "month": "Month",
+      "not_use": "Not used",
+      "enable": "Enable",
+      "disable": "Disable",
+      "active": "Active",
+      "deactivate": "Deactivate",
+      "ticketInfo": "Ticket Info",
+      "reset": "Reset",
+      "search": "Search",
+      "period": "Period",
+      "scope": "Scope",
+      "action": "Action",
+      "audit-log": "Audit Log",
+      "uploadFile": "Upload File",
+      "bookmark": "Bookmark",
+      "unbookmark": "UnBookmark",
+      "cancel_meeting": "Cancel Appointment"
+    },
+    "date_range": {
+      "start_placeholder": "Start Time",
+      "end_placeholder": "End Time"
+    },
+    "durationOption": {
+      "today": "Today",
+      "1week": "1Week",
+      "1month": "1Month",
+      "3months": "3Month"
+    },
+    "user": {
+      "edit_info": "Edit My Info",
+      "change_password": "Change Password",
+      "logout": "Logout"
+    },
+    "message": {
+      "success": {
+        "save": "Save Successfully!",
+        "update": "Update Successfully!",
+        "bookmark": "Save Bookmark Successfully!",
+        "unbookmark": "Unbookmark Successfully!",
+        "delete": "Delete Successfully!",
+        "check-in": "Check-in Success",
+        "refresh": "Refresh Data Successfully",
+        "upload": "Upload File Successfully",
+        "export": "Export File Successfully"
+      },
+      "warning": {
+        "try-again": "Please try again in a minutes."
+      },
+      "error": {
+        "save": "Save failure!",
+        "update": "Update failure!",
+        "bookmark": "Save bookmark failure!",
+        "unbookmark": "Unbookmark failure!",
+        "import": "Import failure! Please check file report!",
+        "check-in": "Check In Reject",
+        "delete": "Delete failed!"
+      },
+      "changePassword": {
+        "success": "Change Password successfully!",
+        "failed": "Old password is valid!",
+        "error": "Change password failed!"
+      },
+      "check-in": {
+        "success": "Guest {{customerName}} has successfully checked in",
+        "reject": "Guest {{customerName}} check-in was rejected"
+      },
+      "confirm": {
+        "save": {
+          "title": "Save the task",
+          "description": "Are you sure to save this task?"
+        },
+        "delete": {
+          "title": "Delete the task",
+          "description": "Are you sure to delete this task?"
+        }
+      }
+    }
+  },
+  "check-in": {
+    "title": "Check-in Management"
+  },
+  "configuration": {
+    "title": "Configuration Manager"
+  },
+  "customer": {
+    "title": "Guest Management",
+    "export": {
+      "file_name": "statistic_customer_{{time}}"
+    },
+    "search": {
+      "title": "Search",
+      "counselor": "Guest",
+      "counselor_placeholder": "Name, Identification Number, Phone, Email"
+    },
+    "table": {
+      "title": "Total {{count}} guest",
+      "btn-add": "Create"
+    },
+    "popup": {
+      "title-add": "Create new guest",
+      "title-edit": "Guest Edit",
+      "btn-save": "Save",
+      "btn-edit": "Save"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "lastUpdate": "Latest update",
+    "search": {
+      "title": "Overview Filter"
+    },
+    "state": {
+      "ticket": "Ticket State",
+      "visitor": "Customer Accept"
+    },
+    "purpose": {
+      "overview": "Purpose Overview",
+      "pie": "Meeting Purpose"
+    },
+    "countdown": {
+      "upcoming": "Upcoming Meetings",
+      "current": "Current Taking Meetings",
+      "ended": "Ended Meetings"
+    },
+    "statistic": {
+      "totalTicket": "Total Ticket",
+      "totalTicketCompleted": "Completed",
+      "totalTicketCancel": "Cancel",
+      "totalVisitor": "Total Visitor",
+      "totalVisitorAccept": "Acceptance",
+      "totalVisitorReject": "Rejected"
+    }
+  },
+  "history": {
+    "title": "History Management",
+    "export": {
+      "file_name": "statistic_customer_{{time}}"
+    },
+    "search": {
+      "title": "Search",
+      "counselor": "Guest",
+      "counselor_placeholder": "Visitor Name, Phone Number, Ticket Title"
+    },
+    "table": {
+      "title": "Total {{count}} customer",
+      "btn-add": "Create"
+    },
+    "popup": {
+      "title-add": "Create new customer",
+      "title-edit": "Guest Edit",
+      "btn-save": "Save",
+      "btn-edit": "Save"
+    }
+  },
+  "meeting": {
+    "calendar": {
+      "title": "Appointment Calendar"
+    },
+    "manager": {
+      "title": "Appointment Management",
+      "table": {
+        "title": "Total {{count}} meetings"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "Appointment",
+        "counselor_placeholder": "Name, Create By, ..."
+      }
+    },
+    "rooms": {
+      "title": "Rooms Calendar"
+    },
+    "popup": {
+      "title-add": "Create new meeting",
+      "title-edit": "Appointment Edit",
+      "btn-save-draft": "Save Draft",
+      "btn-save": "Save",
+      "confirm": "Confirm",
+      "tabs": {
+        "schedule": {
+          "title": "Schedule",
+          "description": "Setup up schedule info"
+        },
+        "participants": {
+          "title": "Participants",
+          "description": "Setup customer participate"
+        },
+        "confirm": {
+          "title": "Confirm",
+          "description": "Confirm info meeting"
+        }
+      },
+      "customerInfo": "Search customer info by name, identification number, phone number, email"
+    }
+  },
+  "organization": {
+    "info": {
+      "title": "My organization"
+    },
+    "user": {
+      "title": "User Management",
+      "export": {
+        "file_name": "statistic_users_{{time}}",
+        "report_error_name": "report_import_users_{{time}}",
+        "file_sample": "statistic_users_sample_{{time}}"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "User",
+        "counselor_placeholder": "Name, Phone number, E-mail"
+      },
+      "table": {
+        "title": "Total {{count}} people",
+        "btn-add": "Register as a user"
+      },
+      "popup": {
+        "title-add": "Register as a user",
+        "title-edit": "User Edit",
+        "btn-save": "Register",
+        "btn-edit": "Save"
+      }
+    },
+    "site": {
+      "title": "Site Management",
+      "export": {
+        "file_name": "statistic_sites_{{time}}"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "Site",
+        "counselor_placeholder": "Name"
+      },
+      "table": {
+        "title": "Total {{count}} site"
+      },
+      "popup": {
+        "title-add": "Create new site",
+        "title-edit": "Site Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      }
+    },
+    "department": {
+      "title": "Department Management",
+      "export": {
+        "file_name": "statistic_department_{{time}}"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "Department",
+        "counselor_placeholder": "Code, Name"
+      },
+      "table": {
+        "title": "Total {{count}} department"
+      },
+      "popup": {
+        "title-add": "Create new department",
+        "title-edit": "Department Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      }
+    },
+    "room": {
+      "title": "Room Management",
+      "export": {
+        "file_name": "statistic_department_{{time}}"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "Room",
+        "counselor_placeholder": "Code, Name"
+      },
+      "table": {
+        "title": "Total {{count}} room",
+        "btn-add": "Create"
+      },
+      "popup": {
+        "title-add": "Create new room",
+        "title-edit": "Room Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      }
+    },
+    "history": {
+      "title": "History Management",
+      "search": {
+        "title": "Search",
+        "counselor": "Room",
+        "counselor_placeholder": "Name"
+      },
+      "table": {
+        "title": "Total {{count}}",
+        "roomName": "Room Name",
+        "visitorName": "Visitor Name",
+        "check_in": "Check in",
+        "check_out": "Check out"
+      },
+      "popup": {
+        "title-add": "Create new room",
+        "title-edit": "Room Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      },
+      "export": {
+        "file_name": "statistic_history_{{time}}"
+      }
+    },
+    "organization": {
+      "title": "Organization Management",
+      "search": {
+        "title": "Search",
+        "counselor": "Organization",
+        "counselor_placeholder": "Enter organization info"
+      },
+      "table": {
+        "title": "Total {{count}}",
+        "roomName": "Room Name",
+        "visitorName": "Visitor Name",
+        "check_in": "Check in",
+        "check_out": "Check out"
+      },
+      "popup": {
+        "title-add": "Create new organization",
+        "title-edit": "Organization Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      }
+    },
+    "template": {
+      "title": "Template Management",
+      "export": {
+        "file_name": "statistic_template_{{time}}"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "Template",
+        "counselor_placeholder": "Code, Name, Subject"
+      },
+      "table": {
+        "title": "Total {{count}} template",
+        "btn-add": "Create"
+      },
+      "popup": {
+        "title-add": "Create new template",
+        "title-edit": "Template Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      }
+    },
+    "device": {
+      "title": "Device Management",
+      "export": {
+        "file_name": "statistic_device_{{time}}"
+      },
+      "search": {
+        "title": "Search",
+        "counselor": "Device",
+        "counselor_placeholder": "Name, Code, Mac Ip"
+      },
+      "table": {
+        "title": "Total {{count}} device",
+        "btn-add": "Create"
+      },
+      "popup": {
+        "title-add": "Create new device",
+        "title-edit": "Device Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      }
+    },
+    "permission": {
+      "title": "Permission Management",
+      "popup": {
+        "title-add": "Create new role",
+        "btn-save": "Save"
+      }
+    },
+    "audit-log": {
+      "title": "Audit Log Management",
+      "search": {
+        "title": "Search"
+      },
+      "table": {
+        "title": "Total {{count}} audit log"
+      },
+      "export": {
+        "file_name": "statistic_audit-log_{{time}}"
+      }
+    },
+    "role": {
+      "title": "Role Management",
+      "search": {
+        "title": "Search",
+        "code": "Code",
+        "code_placeholder": "Please enter the code role",
+        "name": "Name",
+        "name_placeholder": "Please enter the name role"
+      },
+      "table": {
+        "title": "Total {{count}} role",
+        "btn-add": "Create"
+      },
+      "popup": {
+        "title-add": "Create new role",
+        "title-edit": "Role Edit",
+        "btn-save": "Save",
+        "btn-edit": "Save"
+      },
+      "detail": {
+        "title": "Role Information"
+      }
+    }
+  },
+  "qr-manager": {
+    "title": "QR Code Management"
+  },
+  "sidebar": {
+    "home": {
+      "title": "Dashboard"
+    },
+    "meeting": {
+      "title": "Appointment Request",
+      "sub": {
+        "calendar": "Calendar",
+        "meetings": "Appointments",
+        "rooms": "Rooms"
+      }
+    },
+    "check-in": {
+      "title": "Check-in Manager"
+    },
+    "qr-manager": {
+      "title": "QR Code"
+    },
+    "customer": {
+      "title": "Guest",
+      "sub": {
+        "customer": "Guest",
+        "history": "History"
+      }
+    },
+    "organization": {
+      "title": "Site & Org",
+      "sub": {
+        "info": "My organization",
+        "my_site_info": "My Site",
+        "organization": "Organizations",
+        "site": "Sites",
+        "department": "Departments",
+        "user": "User",
+        "role": "Role",
+        "room": "Room",
+        "template": "Template",
+        "device": "Device"
+      }
+    },
+    "system": {
+      "title": "System",
+      "sub": {
+        "configuration": "Configuration",
+        "permission": "Permission",
+        "audit-log": "Audit Log"
+      }
+    }
+  },
+  "ticket-result": {
+    "cancel-meeting": "Cancel Appointment",
+    "reject-customer": "Reject Guest",
+    "success": {
+      "title": "Successfully Verify QR Server!",
+      "subTitle": "Ticket number: : {{ticketId}}. Please wait 1-5 minutes to takes prepare."
+    },
+    "error": {
+      "title": "Failed Verify QR Server!",
+      "subTitle": "Ticket number: : {{ticketId}}. Please contact your appointment for more information."
+    }
+  },
+  "user": {
+    "title": "User Profile Management",
+    "profile": {
+      "label": "My Profile",
+      "title": "Profile Info",
+      "personal_info": "Personal Info",
+      "contact_info": "Contact Info",
+      "address_info": "Address Info"
+    },
+    "security": {
+      "label": "Security",
+      "change_password": "Change Password"
+    }
+  },
+  "pageResults": {
+    "logout": "Logout",
+    "backToSystem": "Back to system",
+    "forbidden": {
+      "title": "Sorry, you are not authorized to access this page."
+    },
+    "notFound": {
+      "title": "Sorry, the page you visited does not exist.\n"
+    }
+  }
+}
