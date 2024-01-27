@@ -1,6 +1,6 @@
 {
   "realm": "vms",
-  "auth-server-url": "https://idm-vms.azurewebsites.net/",
+  "auth-server-url": "http://localhost:9080/",
   "ssl-required": "external",
   "resource": "vms-app",
   "verify-token-audience": true,
